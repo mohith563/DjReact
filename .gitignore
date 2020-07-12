@@ -1,0 +1,25 @@
+# frontend:
+
+/node_modules
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+/frontend/gui/node_modules
+
+/frontend/gui/bower_components
+
+#backend
+
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+/backend/venv
+
